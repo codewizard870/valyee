@@ -8,12 +8,10 @@ import Top from "./top";
 import Automate from "./automate";
 import Feedback from "./feedback";
 import Footer from "../../components/footer";
-import Pricing from "./pricing";
 
-function Main() {
+function Home() {
   return (
-    <div>
-      <Header />
+
       <div className="flex justify-center w-full">
         <div className="w-full md:w-[1280px]">
           <Hero />
@@ -23,12 +21,9 @@ function Main() {
           <Top />
           <Automate />
           <Feedback />
-          <Pricing />
         </div>
       </div>
-      <Footer />
-    </div>
   );
 }
 
-export default Main;
+export default Home;

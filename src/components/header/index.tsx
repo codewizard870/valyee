@@ -15,8 +15,7 @@ const Header: React.FC<HeaderProps> = ({  }) => {
         {Routes.map((route, index) => (
           <a
             href={route.href}
-            target="_blank"
-            rel="noreferrer"
+            key={index}
           >
             <span className="text-base md:text-lg">{route.label}</span>
           </a>
@@ -35,14 +34,18 @@ export default Header;
 const Routes = [
   {
     label: "Features",
-    href: "",
+    href: "/",
   },
   {
     label: "Pricing",
-    href: "",
+    href: "/pricing",
+  },
+  {
+    label: "Blog",
+    href: "/blog"
   },
   {
     label: "Log In",
-    href: "",
+    href: "/",
   },
 ];

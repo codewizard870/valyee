@@ -19,7 +19,6 @@ body{
   font-size: 18px;
   padding-inline: 30px;
   padding-block: 9px;
-
 }
 
 .footer-email::placeholder {
@@ -29,4 +28,10 @@ body{
 
 .footer-email:focus-visible {
   outline: none;
+}
+
+@media (max-width: 768px) {
+  .footer-email {
+    font-size: 14px;
+  }
 }

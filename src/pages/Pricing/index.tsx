@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div className="pt-16 md:pt-[100px] pb-24 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col items-center">
+    <div className="pt-24 md:pt-[180px] pb-24 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col items-center">
       <p className="text-3xl font-medium leading-normal md:text-4xl font-Roboto">
         Pricing
       </p>
@@ -12,7 +12,7 @@ const Pricing = () => {
           <div className="w-full h-px my-4 bg-gray-1/50" />
           <div className="flex flex-col gap-4">
             {RegularFeatures.map((feature, index) => (
-              <div className="flex gap-2">
+              <div className="flex gap-2" key={index}>
                 <img src="/assets/pricing/check.svg" className="w-4" />
                 <p className="text-xs md:text-sm text-gray-1/50">{feature}</p>
               </div>
@@ -29,7 +29,7 @@ const Pricing = () => {
           <div className="w-full h-px my-4 bg-gray-1/50" />
           <div className="flex flex-col gap-4">
             {RegularFeatures.map((feature, index) => (
-              <div className="flex gap-2">
+              <div className="flex gap-2" key={index}>
                 <img src="/assets/pricing/check.svg" className="w-4" />
                 <p className="text-xs md:text-sm text-gray-1/50">{feature}</p>
               </div>
