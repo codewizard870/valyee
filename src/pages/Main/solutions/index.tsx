@@ -2,8 +2,8 @@ import Card from "./card";
 
 const Solutions = () => {
   return (
-    <div className="mx-24 pt-[105px] pb-[99px]">
-      <p className="text-[40px] font-semibold">
+    <div className="mx-6 md:mx-24 pt-[50px] md:pt-[105px] pb-[60px] md:pb-[99px]">
+      <p className="text-3xl md:text-[40px] font-semibold">
         Efficient Recruiting Solutions for Startups & Agencies
       </p>
       <div className="mt-[80px] flex flex-wrap justify-between gap-y-[47px]">

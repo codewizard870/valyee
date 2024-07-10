@@ -3,20 +3,15 @@ import { ScrollTrigger, Tween } from "react-gsap";
 import { BsDiscord } from "react-icons/bs";
 
 type HeaderProps = {
-  clickWaitlist?: () => void;
 };
 
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-};
-
-const Header: React.FC<HeaderProps> = ({ clickWaitlist }) => {
+const Header: React.FC<HeaderProps> = ({  }) => {
   return (
-    <div className="fixed top-0 z-20 flex justify-between w-full px-20 py-6 border-b bg-gray-2 border-b-gray-1/10 md:px-20">
+    <div className="fixed top-0 z-20 flex justify-between w-full px-10 py-6 border-b md:px-20 bg-gray-2 border-b-gray-1/10">
       <div className="flex items-center gap-2">
         <span className="text-xl font-semibold md:text-2xl">Valyee</span>
       </div>
-      <div className="flex items-center gap-4 md:gap-8">
+      <div className="items-center hidden gap-4 md:flex md:gap-8">
         {Routes.map((route, index) => (
           <a
             href={route.href}

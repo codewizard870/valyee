@@ -14,7 +14,7 @@ function Main() {
     <div>
       <Header />
       <div className="flex justify-center w-full">
-        <div className="w-[1280px]">
+        <div className="w-full md:w-[1280px]">
           <Hero />
           <Solutions />
           <Client />
