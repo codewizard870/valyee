@@ -28,6 +28,7 @@ const Resumes = [
     title: "Bulk Download Resumes",
     label:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+    
   },
   {
     title: "Consolidate Candidate Management",
