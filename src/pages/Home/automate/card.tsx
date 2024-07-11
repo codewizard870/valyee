@@ -2,12 +2,13 @@ interface Props {
   data: {
     title: string;
     label: string;
+    icon: string;
   };
 }
 const Card: React.FC<Props> = ({ data }) => {
   return (
     <div className="w-[255px]">
-      <img src="/assets/multiple/resume.png" />
+      <img src={data.icon} className="rounded-full w-7 md:w-10" />
       <p className="font-Roboto font-medium text-sm md:text-base mt-[14px] whitespace-nowrap">
         {data.title}
       </p>
