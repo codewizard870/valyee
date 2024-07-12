@@ -11,7 +11,6 @@ type HeaderProps = {};
 const Header: React.FC<HeaderProps> = ({}) => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
-  const isOpen = useAppSelector((state) => state.globalState.bWaitList);
 
   const onClickSignup = () => {
     dispatch(toggleWaitList(true));
