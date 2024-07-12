@@ -5,6 +5,8 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
+import JoinWaitList from "./components/modal/waitList";
+import MobileMenu from "./components/modal/mobileMenu";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <Route path="/blog/:blogId" element={<BlogDetail />} />
       </Routes>
       <Footer />
+
+      <JoinWaitList />
+      <MobileMenu />
     </div>
   );
 }

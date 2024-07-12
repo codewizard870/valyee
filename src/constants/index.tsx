@@ -11,3 +11,15 @@ export const BLOGS: BlogType[] = [
     thumbnail: "/assets/blog/blog1.webp",
   },
 ];
+
+
+export const ROUTES = [
+  {
+    label: "Pricing",
+    href: "/pricing",
+  },
+  {
+    label: "Blog",
+    href: "/blog",
+  },
+];
