@@ -11,26 +11,26 @@ const Feedback = () => {
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
   };
 
   return (
-    <div className="mt-[30px] mb-[30px] mx-6 md:mx-[100px]">
+    <div className="mt-[30px] mb-[30px] md:mx-[100px]">
       <Slider {...settings}>
         {Feedbacks.map((feedback, index) => (
-          <div key={index}>
-            <div className="flex items-center justify-center py-4 mx-4 rounded-lg md:mx-2 md:py-20 bg-third-default">
-              <div className="w-full md:w-[756px] p-4">
-                <p className="text-base font-semibold !leading-relaxed md:text-2xl h-[230px] overflow-hidden">
+          <div key={index} className="">
+            <div className="flex items-center justify-center py-4 rounded-lg mx-4 md:mx-2 md:py-20 bg-third-default h-[460px] md:h-[460px]">
+              <div className="w-full md:w-[756px] min-h-[360px] md:min-h-[320px] flex flex-col justify-between px-8 py-4 md:p-0">
+                <p className="text-base font-semibold !leading-relaxed md:text-2xl">
                   {feedback.description}
                 </p>
-                <div className="pt-[50px] flex gap-[13px] items-center">
+                <div className="flex gap-[13px] items-center pt-4">
                   <img
                     src={feedback.avatar}
                     className="rounded-full w-14 md:w-20"
                   />
                   <div>
-                    <p className="text-sm md:text-lg text-black/40 whitespace-nowrap w-[200px] overflow-hidden">
+                    <p className="text-sm md:text-lg text-black/40">
                       {feedback.name}
                     </p>
                     <div className="flex gap-[5px] mt-2">
@@ -67,23 +67,9 @@ const Feedbacks = [
   },
   {
     description:
-      "Valyee has been a game-changer for our hiring process. The product has significantly reduced the time we spend sifting through CVs and has streamlined our recruitment efforts. With the increasing number of applicants for each job post, Valyee has saved us countless hours. It's an invaluable tool for any HR team!",
+      "I'm super impressed with the early access version of Valyee. While the product is still rough around the edges, it's core functionality is excellent, and has been tremendously helpful in reducing the time I spend on tedious, manual hiring processes as a recruiter. The team is responsive and has been incredibly helpful, and I can't wait for the next set of features to roll out.",
     avatar: "/assets/feedback/1.png",
     mark: 5,
-    name: "Ava Johnson, HR Manager at BrightFuture Inc.",
-  },
-  {
-    description:
-      "We've been beta testing Valyee, and the impact on our hiring process has been outstanding. The time saved on downloading and manually reviewing CVs is incredible. With more applicants than ever, Valyee has been essential in managing our recruitment efficiently. Highly recommended!",
-    avatar: "/assets/feedback/2.png",
-    mark: 5,
-    name: "Ethan Martinez, Recruitment Lead at TechWave Solutions",
-  },
-  {
-    description:
-      "Using Valyee during our beta testing phase has been incredibly beneficial. It has drastically cut down the time required to handle the influx of job applications. Valyee automates the CV review process, saving us numerous hours. It's a must-have for any organization facing a high volume of applicants.",
-    avatar: "/assets/feedback/3.png",
-    mark: 5,
-    name: "Olivia Smith, Talent Acquisition Specialist at InnovateX",
+    name: "Mehak Bohra, Recruitment Manager",
   },
 ];

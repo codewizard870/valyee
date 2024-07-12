@@ -33,13 +33,13 @@ const Resumes = [
   {
     title: "Bulk Download Resumes",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "Downloading resumes manually is exhausting. We offer a 1 click solution to download and rank all applicants, instantly!",
     icon: "/assets/multiple/1.png",
   },
   {
     title: "Consolidate Candidate Management",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "Stop wasting time managing applicants on different job portals. Access, rank and manage all candidates from a single dashboard.",
     icon: "/assets/multiple/2.png",
   },
 ];

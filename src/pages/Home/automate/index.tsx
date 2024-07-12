@@ -36,13 +36,13 @@ const Cards = [
   {
     title: "Create Interviews & Assessments",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "Create interviews, assign assessments and automate round 1 data collection and interview processes.",
     icon: "/assets/automate/1.png"
   },
   {
     title: "AI Interviews & Insights",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "Our AI Interviewer will call candidates, collect information, analyse responses, and generate insights to be shared with the hiring team.",
       icon: "/assets/automate/2.png"
   },
 ];

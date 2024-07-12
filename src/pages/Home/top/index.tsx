@@ -35,13 +35,13 @@ const Cards = [
   {
     title: "Find the Best Fit, Instantly.",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "Use our proprietary AI algorithms to analyse candidates resumes, portfolios & projects to find the perfect candidate for the role.",
     icon: "/assets/top/1.png",
   },
   {
     title: "Apply Custom Screening Criteria",
     label:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ",
+      "There’s no one size fits all approach when it comes to hiring. Our platform allows you to customise how your candidates are shortlisted.",
     icon: "/assets/top/2.png",
   },
 ];
