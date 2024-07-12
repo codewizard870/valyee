@@ -5,7 +5,7 @@ const Footer = () => {
         <p className="text-xl md:text-2xl">Valyee</p>
         <div className="pt-[49px] flex flex-col md:flex-row gap-[30px] justify-between">
           {Routes.map((route, index) => (
-            <a href={route.href} target="_blank" key={index}>
+            <a href={route.href} key={index}>
               <span className="text-base font-semibold md:text-lg">
                 {route.label}
               </span>
@@ -32,14 +32,14 @@ export default Footer;
 const Routes = [
   {
     label: "© Valyee 2024",
-    href: ""
+    href: "#"
   },
   {
     label: "Privacy policy",
-    href: ""
+    href: "/privacy"
   },
   {
     label: "Terms of use",
-    href: ""
+    href: "/terms"
   }
 ]
