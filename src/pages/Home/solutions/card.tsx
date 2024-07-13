@@ -8,7 +8,7 @@ interface Props {
 
 const Card: React.FC<Props> = ({ data }) => {
   return (
-    <div className="flex gap-[41px] items-center w-[464px]">
+    <div className="flex gap-[41px] items-center lg:max-w-[464px]">
       <img src={data.img} />
       <div>
         <p className="text-base font-semibold leading-relaxed md:text-lg">{data.title}</p>

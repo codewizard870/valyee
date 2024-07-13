@@ -3,10 +3,10 @@ import Card from "./card";
 const Solutions = () => {
   return (
     <div className="mx-6 md:mx-24 pt-[50px] md:pt-[105px] pb-[60px] md:pb-[99px]">
-      <p className="text-3xl md:text-[40px] font-semibold">
+      <p className="text-3xl md:text-[40px] font-semibold !leading-normal">
         Efficient Recruiting Solutions for Startups & Agencies
       </p>
-      <div className="mt-[80px] flex flex-wrap justify-between gap-y-[47px]">
+      <div className="mt-[80px] grid grid-cols-1 lg:grid-cols-2 justify-between gap-y-[47px] gap-x-10">
         {Cards.map((card, index) => (
           <Card data={card} key={index} />
         ))}

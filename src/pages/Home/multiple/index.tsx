@@ -2,26 +2,25 @@ import Resume from "./resume";
 
 const Multiple = () => {
   return (
-    <div className="pt-[60px] md:pt-[100px] pb-[100px] md:pb-[158px] mx-6 md:mx-[118px] flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-center">
+    <div className="pt-[60px] md:pt-[100px] pb-[100px] md:pb-[158px] mx-6 md:mx-[118px] flex flex-col lg:flex-row gap-10 justify-between items-center">
       <div>
-        <p className="text-3xl font-medium leading-normal md:text-4xl font-Roboto">
+        <p className="text-3xl font-medium !leading-normal text-center md:text-4xl font-Roboto lg:text-left">
           Source and manage candidates
-          <br /> across multiple job boards!
+          across multiple job boards!
         </p>
-        <p className="mt-6 text-sm md:text-base font-Roboto text-[#6F7CB2]">
+        <p className="mt-6 text-sm md:text-base font-Roboto text-[#6F7CB2] text-center lg:text-left max-w-[512px]">
           Aggregate, compare, filter and shortlist candidates sourced from
-          across
-          <br /> multiple job boards - including LinkedIn, AngelList, Indeed and
-          <br /> Naukri.com.{" "}
+          across multiple job boards - including LinkedIn, AngelList, Indeed and
+          Naukri.com.
         </p>
-        <div className="mt-10 md:mt-[122px] flex flex-col md:flex-row gap-[30px]">
+        <div className="mt-10 md:mt-[122px] grid grid-cols-1 lg:grid-cols-2 md:flex-row gap-[30px]">
           {Resumes.map((resume, index) => (
             <Resume data={resume} key={index} />
           ))}
         </div>
       </div>
-      <div>
-        <img src="/assets/multiple/banner.png" className="w-full md:w-[400px] rounded-lg" />
+      <div className="flex max-w-[300px] lg:max-w-[400px]">
+        <img src="/assets/multiple/banner.png" className="rounded-lg" />
       </div>
     </div>
   );

@@ -6,21 +6,21 @@ import "slick-carousel/slick/slick-theme.css";
 const Feedback = () => {
   const settings = {
     dots: false,
-    infinite: true,
-    speed: 500,
+    // infinite: true,
+    // speed: 500,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
   };
 
   return (
-    <div className="mt-[30px] mb-[30px] md:mx-[100px]">
+    <div className="mt-[30px] mb-[30px] mx-6 md:mx-[100px] max-w-[90vw] lg:max-w-[90vw]">
       <Slider {...settings}>
         {Feedbacks.map((feedback, index) => (
           <div key={index} className="">
             <div className="flex items-center justify-center py-4 rounded-lg mx-4 md:mx-2 md:py-20 bg-third-default h-[460px] md:h-[460px]">
-              <div className="w-full md:w-[756px] min-h-[360px] md:min-h-[320px] flex flex-col justify-between px-8 py-4 md:p-0">
+            <div className="w-full md:w-[756px] min-h-[360px] md:min-h-[320px] flex flex-col justify-between px-8 py-4 md:p-0">
                 <p className="text-base font-semibold !leading-relaxed md:text-2xl">
                   {feedback.description}
                 </p>

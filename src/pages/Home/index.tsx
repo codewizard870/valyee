@@ -8,18 +8,17 @@ import Feedback from "./feedback";
 
 function Home() {
   return (
-
-      <div className="flex justify-center w-full">
-        <div className="w-full md:w-[1280px]">
-          <Hero />
-          <Solutions />
-          <Client />
-          <Multiple />
-          <Top />
-          <Automate />
-          <Feedback />
-        </div>
+    <div className="flex justify-center w-full">
+      <div className="lg:max-w-[1280px]">
+        <Hero />
+        <Solutions />
+        <Client />
+        <Multiple />
+        <Top />
+        <Automate />
+        <Feedback />
       </div>
+    </div>
   );
 }
 

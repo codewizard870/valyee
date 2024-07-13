@@ -1,13 +1,9 @@
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-10 justify-between items-center mt-[100px] md:mt-[176px] mx-6 md:mx-24 mb-[78px]">
-      <div className="w-full md:w-[450px]">
-        <p className="text-4xl font-semibold !leading-normal md:text-5xl">
-          Hire Top
-          <br />
-          Candidates,
-          <br />
-          Superfast
+    <div className="flex flex-col lg:flex-row gap-10 justify-between items-center mt-[100px] md:mt-[176px] mx-6 md:mx-24 mb-[78px]">
+      <div className="lg:w-[450px]">
+        <p className="text-4xl font-semibold !leading-normal md:text-5xl lg:w-[500px]">
+          Hire Top Candidates, Superfast
         </p>
         <p className="pt-1 text-base !leading-relaxed md:text-lg">
           Automatically screen, rank and interview candidates. Find the perfect
