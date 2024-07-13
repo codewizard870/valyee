@@ -25,9 +25,16 @@ const JoinWaitList = () => {
     >
       <div className="flex items-center justify-center w-full h-full">
         <div
-          className={`w-[90vw] h-[540px] md:h-[647px] border border-primary-default flex justify-center items-center px-4 md:px-0 bg-white rounded-lg`}
+          className={`relative w-[90vw] h-[540px]  md:w-[1140px] md:h-[647px] border border-primary-default flex justify-center items-center px-4 md:px-0 bg-white rounded-lg  shadow-5xl`}
           onClick={(e) => e.stopPropagation()}
         >
+          <div
+            className="absolute p-4 rounded-full cursor-pointer top-10 right-10 hover:bg-primary-default/10"
+            onClick={() => dispatch(toggleWaitList(false))}
+          >
+            <img src="/assets/joinwaitlist/close.png" />
+          </div>
+
           <div className="w-[700px]">
             <p className="text-3xl md:text-[38px] font-semibold text-primary-default text-center">
               We’re Launching Soon!
@@ -45,7 +52,9 @@ const JoinWaitList = () => {
               <input className="w-full mt-1 border border-black/50 focus-visible:outline-none h-7 text-xs md:text-[13px] px-2" />
             </div>
             <div className="mt-5">
-              <p className="text-xs md:text-[13px] font-medium">Phone Number:</p>
+              <p className="text-xs md:text-[13px] font-medium">
+                Phone Number:
+              </p>
               <div className="flex w-full gap-4 mt-1 ">
                 <select
                   className="text-xs md:text-[13px] border border-black/50 focus-visible:outline-none h-7 px-2"
@@ -69,7 +78,7 @@ const JoinWaitList = () => {
               </select>
             </div>
             <div className="w-full mt-6">
-              <JoinButton className="w-full"/>
+              <JoinButton className="w-full" />
             </div>
           </div>
         </div>
