@@ -2,7 +2,7 @@ import Card from "./card";
 
 const Automate = () => {
   return (
-    <div className="pt-16 md:pt-[100px] pb-24 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col lg:flex-row gap-10 justify-between items-center">
+    <div className="pt-20 md:pt-[100px] pb-10 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col lg:flex-row gap-10 justify-between items-center">
       <div>
         <p className="text-3xl font-medium leading-normal text-center md:text-4xl font-Roboto lg:text-left">
           Automate Early Stage Interviews

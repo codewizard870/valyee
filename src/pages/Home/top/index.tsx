@@ -2,7 +2,7 @@ import Card from "./card";
 
 const Top = () => {
   return (
-    <div className="pt-16 md:pt-[100px] pb-24 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col-reverse lg:flex-row gap-10 justify-between items-center">
+    <div className="pt-10 md:pt-[100px] pb-0 md:pb-[158px] mx-6 md:mx-[118px] flex flex-col-reverse lg:flex-row gap-10 justify-between items-center">
       <div className="max-w-[300px] lg:max-w-[400px]">
         <img
           src="/assets/top/banner.png"

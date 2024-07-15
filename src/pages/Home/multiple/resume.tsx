@@ -12,7 +12,7 @@ const Resume: React.FC<Props> = ({ data }) => {
       <p className="font-Roboto font-medium text-sm md:text-base mt-[14px]">
         {data.title}
       </p>
-      <p className="text-[10px] md:text-xs font-Roboto text-[#5D6970] mt-[14px] lg:max-w-[255px]">
+      <p className="text-[12px] md:text-xs font-Roboto text-[#5D6970] mt-[14px] lg:max-w-[255px]">
         {data.label}
       </p>
     </div>
