@@ -8,10 +8,12 @@ const Feedback = () => {
     dots: false,
     // infinite: true,
     // speed: 500,
-    arrows: false,
+    arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     // autoplay: true,
+    nextArrow: <img src="/assets/feedback/right-arrow.svg" />,
+    prevArrow: <img src="/assets/feedback/left-arrow.svg" />,
   };
 
   return (
@@ -19,8 +21,8 @@ const Feedback = () => {
       <Slider {...settings}>
         {Feedbacks.map((feedback, index) => (
           <div key={index} className="">
-            <div className="flex items-center justify-center py-4 rounded-lg mx-4 md:mx-2 md:py-20 bg-third-default h-[460px] md:h-[460px]">
-            <div className="w-full md:w-[756px] min-h-[360px] md:min-h-[320px] flex flex-col justify-between px-8 py-4 md:p-0">
+            <div className="flex items-center justify-center py-4 px-10 rounded-lg mx-4 md:mx-2 md:py-20 bg-third-default h-[460px] md:h-[460px]">
+              <div className="w-full md:w-[756px] min-h-[360px] md:min-h-[320px] flex flex-col justify-between px-8 py-4 md:p-0">
                 <p className="text-base font-semibold !leading-relaxed md:text-2xl">
                   {feedback.description}
                 </p>

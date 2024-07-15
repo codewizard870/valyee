@@ -19,22 +19,22 @@ export default Solutions;
 
 const Cards = [
   {
-    img: "/assets/solutions/cards.png",
+    img: "/assets/solutions/1.png",
     title: "Eliminate Tedious, Repetitive Tasks",
     label: "Eliminate tedious processes like downloading CVs & screening candidates"
   },
   {
-    img: "/assets/solutions/coin.png",
+    img: "/assets/solutions/2.png",
     title: "Collaborate Seamlessly across Teams ",
     label: "Collaborate with hirings managers, clients and across teams"
   },
   {
-    img: "/assets/solutions/purse.png",
+    img: "/assets/solutions/3.png",
     title: "Automate Candidate Outreach",
     label: "Write description here, Write description here, Write description here"
   },
   {
-    img: "/assets/solutions/purse.png",
+    img: "/assets/solutions/4.png",
     title: "Reduce Costs, Boost Productivity",
     label: "Write description here, Write description here, Write description here"
   },

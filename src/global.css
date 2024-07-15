@@ -39,3 +39,13 @@ body{
 .no-scroll {
   overflow: hidden;
 }
+
+.slick-prev {
+  left: 20px !important;
+  z-index: 50;
+}
+
+.slick-next {
+  right: 20px !important;
+  z-index: 50;
+}

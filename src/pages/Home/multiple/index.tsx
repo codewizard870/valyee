@@ -2,7 +2,7 @@ import Resume from "./resume";
 
 const Multiple = () => {
   return (
-    <div className="pt-[60px] md:pt-[100px] pb-[100px] md:pb-[158px] mx-6 md:mx-[118px] flex flex-col lg:flex-row gap-10 justify-between items-center">
+    <div className="pt-[60px] md:pt-[100px] pb-[100px] md:pb-[158px] mx-6 md:mx-[118px] flex flex-col lg:flex-row gap-3 justify-between items-center">
       <div>
         <p className="text-3xl font-medium !leading-normal text-center md:text-4xl font-Roboto lg:text-left">
           Source and manage candidates
@@ -19,7 +19,7 @@ const Multiple = () => {
           ))}
         </div>
       </div>
-      <div className="flex max-w-[300px] lg:max-w-[400px]">
+      <div className="-ml-0 md:-ml-[100px] flex max-w-[300px] lg:min-w-[679px]">
         <img src="/assets/multiple/banner.png" className="rounded-lg" />
       </div>
     </div>

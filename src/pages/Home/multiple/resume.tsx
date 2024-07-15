@@ -8,7 +8,7 @@ interface Props {
 const Resume: React.FC<Props> = ({ data }) => {
   return (
     <div className="lg:max-w-[300px]">
-      <img src={data.icon} className="rounded-lg w-7 md:w-10" />
+      <img src={data.icon} className="w-6 rounded-lg md:w-8" />
       <p className="font-Roboto font-medium text-sm md:text-base mt-[14px]">
         {data.title}
       </p>
