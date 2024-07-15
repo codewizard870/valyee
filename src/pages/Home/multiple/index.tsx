@@ -19,7 +19,7 @@ const Multiple = () => {
           ))}
         </div>
       </div>
-      <div className="-ml-0 md:-ml-[100px] flex max-w-[300px] lg:min-w-[679px]">
+      <div className="-ml-[100px] flex max-w-[400px] lg:min-w-[679px]">
         <img src="/assets/multiple/banner.png" className="rounded-lg" />
       </div>
     </div>

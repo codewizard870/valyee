@@ -11,7 +11,7 @@ const Feedback = () => {
     arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     nextArrow: <img src="/assets/feedback/right-arrow.svg" />,
     prevArrow: <img src="/assets/feedback/left-arrow.svg" />,
   };
