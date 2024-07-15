@@ -18,7 +18,7 @@ const Multiple = () => {
           ))}
         </div>
       </div>
-      <div className="relative flex max-w-[300px] lg:min-w-[500px] justify-center">
+      <div className="relative flex max-w-[300px] lg:min-w-[500px]">
         <div
           className="absolute w-full h-full"
           style={{
@@ -28,7 +28,8 @@ const Multiple = () => {
             transform: "matrix(-0.4, -0.92, 0.94, -0.35, 0, 0)",
           }}
         ></div>
-        <img src="/assets/multiple/banner.png" className="rounded-lg" />
+        <img src="/assets/multiple/outer-ring.png" className="rounded-lg rotate-clockwise" />
+        <img src="/assets/multiple/inner-ring.png" className="absolute rounded-lg rotate-anticlockwise" />
       </div>
     </div>
   );
